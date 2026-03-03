@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>読んでみてはラジオ</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;600;700&family=Roboto:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background-color: #fefdf8; font-family: 'Roboto', 'Noto Sans JP', sans-serif; overflow-x: hidden; }
+    a { text-decoration: none; color: inherit; }
+  </style>
+</head>
+<body class="bg-[#fefdf8]">
+
+  <!-- ========== HEADER ========== -->
+  <header class="max-w-[1440px] mx-auto flex items-start justify-end px-6 pt-5 pb-3 md:px-[160px] md:pt-[35px] md:pb-4">
+    <nav class="flex items-start gap-5 md:gap-[74px]">
+      <a href="#about" class="flex flex-col items-center gap-[2px]">
+        <span class="font-['Roboto'] font-light text-[11px] tracking-[1px] text-black md:text-[14px] md:tracking-[1.4px]">ABOUT</span>
+        <span class="hidden font-['Noto_Sans_JP'] font-light text-[8px] text-black md:block">概要</span>
+      </a>
+      <a href="#news" class="flex flex-col items-center gap-[2px]">
+        <span class="font-['Roboto'] font-light text-[11px] tracking-[1px] text-black md:text-[14px] md:tracking-[1.4px]">NEWS</span>
+        <span class="hidden font-['Noto_Sans_JP'] font-light text-[8px] text-black md:block">お知らせ</span>
+      </a>
+      <a href="#channel" class="flex flex-col items-center gap-[2px]">
+        <span class="font-['Roboto'] font-light text-[11px] tracking-[1px] text-black md:text-[14px] md:tracking-[1.4px]">CHANNEL</span>
+        <span class="hidden font-['Noto_Sans_JP'] font-light text-[8px] text-black md:block">チャンネル</span>
+      </a>
+      <a href="#shop" class="flex flex-col items-center gap-[2px]">
+        <span class="font-['Roboto'] font-light text-[11px] tracking-[1px] text-black md:text-[14px] md:tracking-[1.4px]">SHOP</span>
+        <span class="hidden font-['Noto_Sans_JP'] font-light text-[8px] text-black md:block">グッズ</span>
+      </a>
+      <a href="#profile" class="flex flex-col items-center gap-[2px]">
+        <span class="font-['Roboto'] font-light text-[11px] tracking-[1px] text-black md:text-[14px] md:tracking-[1.4px]">PROFILE</span>
+        <span class="hidden font-['Noto_Sans_JP'] font-light text-[8px] text-black md:block">メンバー紹介</span>
+      </a>
+    </nav>
+  </header>
+
+  <!-- ========== HERO KV ========== -->
+  <section class="max-w-[1440px] mx-auto md:pl-[146px] md:pr-[157px]">
+    <img
+      src="img/top.png"
+      alt="読んでみてはラジオ"
+      class="w-full"
+    >
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="max-w-[1440px] mx-auto px-6 pt-10 pb-12 md:pl-[146px] md:pr-[157px] md:pt-[60px] md:pb-[80px]">
+    <h2 class="font-['Roboto'] font-light text-[24px] tracking-[3px] text-black mb-8 md:text-[30px] md:mb-[70px]">ABOUT</h2>
+    <div class="flex flex-col gap-10 md:flex-row md:gap-[120px]">
+      <!-- Left: main description -->
+      <div class="w-full md:w-[478px] md:shrink-0">
+        <p class="font-['Roboto','Noto_Sans_JP'] font-normal text-[15px] leading-[28px] text-black md:text-[16px] md:leading-[30px]">
+          「読書は人生を豊かにする」と言う仮説を持つパーソナリティ2名が、本の内容を血肉化し活用していくために、お互いに読んだ本を紹介し、ゆるく雑談をしてインサイトを得るラジオ番組です。
+        </p>
+        <p class="font-['Roboto','Noto_Sans_JP'] font-normal text-[15px] leading-[28px] text-black md:text-[16px] md:leading-[30px]">
+          毎週日曜日の17:00に新エピソードを配信します。
+        </p>
+      </div>
+      <!-- Right: feature points -->
+      <div class="flex-1 flex flex-col gap-8 md:gap-[95px]">
+        <div>
+          <h3 class="font-['Roboto','Noto_Sans_JP'] font-semibold text-[15px] leading-[28px] text-black md:text-[16px] md:leading-[30px]">異なる視点の対話</h3>
+          <p class="font-['Roboto','Noto_Sans_JP'] font-light text-[13px] leading-[26px] text-black md:text-[14px] md:leading-[30px]">デザイナーかと経営者という、異なる領域のプロフェッショナルによる多角的な議論</p>
+        </div>
+        <div>
+          <h3 class="font-['Roboto','Noto_Sans_JP'] font-semibold text-[15px] leading-[28px] text-black md:text-[16px] md:leading-[30px]">血肉化する読書</h3>
+          <p class="font-['Roboto','Noto_Sans_JP'] font-light text-[13px] leading-[26px] text-black md:text-[14px] md:leading-[30px]">表面的な要約ではなく、本の内容を深く咀嚼し、自分の思考に統合する</p>
+        </div>
+        <div>
+          <h3 class="font-['Roboto','Noto_Sans_JP'] font-semibold text-[15px] leading-[28px] text-black md:text-[16px] md:leading-[30px]">作業用BGMにも</h3>
+          <p class="font-['Roboto','Noto_Sans_JP'] font-light text-[13px] leading-[26px] text-black md:text-[14px] md:leading-[30px]">心地よい対話の間。読書や仕事のお供に最適な音の空間</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NEWS ========== -->
+  <section id="news" class="mt-4">
+    <!-- Title above background strip -->
+    <div class="max-w-[1440px] mx-auto pl-6 mb-6 md:pl-[144px] md:mb-[38px]">
+      <h2 class="font-['Roboto'] font-light text-[24px] tracking-[3px] text-black md:text-[30px]">NEWS</h2>
+    </div>
+    <!-- Full-width background + carousel -->
+    <div class="relative w-full h-[220px] flex items-center justify-center overflow-hidden md:h-[300px]">
+      <img
+        src="img/news_bg.png"
+        alt=""
+        class="absolute inset-0 w-full h-full object-cover"
+      >
+      <!-- Carousel -->
+      <div class="relative z-10 w-full flex items-center justify-center">
+        <!-- Left arrow -->
+        <button
+          class="absolute left-3 flex items-center justify-center w-10 h-10 focus:outline-none md:left-[253px]"
+          onclick="changeSlide(-1)"
+          aria-label="前へ"
+        >
+          <span class="block w-4 h-4 border-l-2 border-b-2 border-black rotate-45 translate-x-1"></span>
+        </button>
+        <!-- News card -->
+        <div class="bg-[#fefdf8] w-[85%] flex flex-col justify-center px-6 py-5 md:w-[720px] md:h-[160px] md:px-[108px] md:py-0">
+          <p id="news-date" class="font-['Roboto'] font-light text-[12px] leading-[26px] text-black md:text-[14px] md:leading-[30px]">2026.2.2</p>
+          <p id="news-title" class="font-['Roboto','Noto_Sans_JP'] font-semibold text-[14px] leading-[26px] text-black md:text-[16px] md:leading-[30px]">Podcast ウィークエンド 出展</p>
+          <p id="news-desc" class="font-['Noto_Sans_JP'] font-light text-[12px] leading-[22px] text-black md:text-[14px] md:leading-[30px]">Podcastの祭典に2026年春初出展いたします</p>
+        </div>
+        <!-- Right arrow -->
+        <button
+          class="absolute right-3 flex items-center justify-center w-10 h-10 focus:outline-none md:right-[253px]"
+          onclick="changeSlide(1)"
+          aria-label="次へ"
+        >
+          <span class="block w-4 h-4 border-r-2 border-t-2 border-black rotate-45 -translate-x-1"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CHANNEL ========== -->
+  <section id="channel" class="max-w-[1440px] mx-auto px-6 mt-14 md:px-[144px] md:mt-24">
+    <h2 class="font-['Roboto'] font-light text-[24px] tracking-[3px] text-black mb-8 md:text-[30px] md:mb-[102px]">CHANNEL</h2>
+    <div class="flex flex-col gap-4 md:flex-row md:gap-[44px]">
+      <!-- YouTube -->
+      <a href="#" class="w-full bg-black rounded-[20px] h-[80px] flex items-center justify-center gap-3 md:flex-1 md:rounded-[30px] md:h-[126px] md:gap-4">
+        <img
+          src="img/youtube_trimmed.png"
+          alt=""
+          class="h-8 w-auto object-contain md:h-[56px]"
+        >
+        <span class="font-['Roboto'] font-bold text-[22px] text-white md:text-[32px]">YouTube</span>
+      </a>
+      <!-- Spotify -->
+      <a href="#" class="w-full bg-black rounded-[20px] h-[80px] flex items-center justify-center gap-3 md:flex-1 md:rounded-[30px] md:h-[126px] md:gap-4">
+        <img
+          src="img/spotify_trimmed.png"
+          alt=""
+          class="w-9 h-9 object-contain md:w-[50px] md:h-[50px]"
+        >
+        <span class="font-['Roboto'] font-bold text-[22px] text-white md:text-[32px]">Spotify</span>
+      </a>
+      <!-- Apple Podcasts -->
+      <a href="#" class="w-full bg-black rounded-[20px] h-[80px] flex items-center justify-center gap-3 md:flex-1 md:rounded-[30px] md:h-[126px] md:gap-4">
+        <img
+          src="img/apple_podcast.svg"
+          alt=""
+          class="w-9 h-9 object-contain md:w-[50px] md:h-[50px]"
+        >
+        <span class="font-['Roboto'] font-bold text-[22px] text-white md:text-[32px]">Apple</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== SEND A MESSAGE ========== -->
+  <section class="max-w-[1440px] mx-auto px-6 mt-14 text-center md:px-[145px] md:mt-24">
+    <p class="font-['Roboto'] font-light text-[18px] tracking-[2px] text-black mb-6 md:text-[24px] md:tracking-[2.4px] md:mb-10">SEND A MESSAGE</p>
+    <p class="font-['Roboto','Noto_Sans_JP'] font-normal text-[14px] leading-[28px] tracking-[1px] text-black md:text-[16px] md:leading-[30px] md:tracking-[1.6px]">
+      番組への感想やパーソナリティへの質問、番組と全く関係ない雑談など
+    </p>
+    <p class="font-['Roboto','Noto_Sans_JP'] font-normal text-[14px] leading-[28px] tracking-[1px] text-black mb-10 md:text-[16px] md:leading-[30px] md:tracking-[1.6px] md:mb-12">
+      リスナーの皆様からのお便りをお待ちしております！
+    </p>
+    <a
+      href="#"
+      class="inline-flex items-center justify-center bg-black text-white font-['Roboto','Noto_Sans_JP'] font-extrabold text-[22px] tracking-[2px] w-full max-w-[400px] h-[80px] rounded-[20px] md:text-[30px] md:tracking-[3px] md:w-[561px] md:max-w-none md:h-[120px] md:rounded-[30px]"
+    >
+      お便りフォーム
+    </a>
+  </section>
+
+  <!-- ========== SHOP ========== -->
+  <section id="shop" class="max-w-[1440px] mx-auto px-4 mt-14 md:px-[145px] md:mt-24">
+    <img
+      src="img/shop.png"
+      alt="ONLINE SHOP"
+      class="w-full object-cover"
+    >
+  </section>
+
+  <!-- ========== RADIO PERSONALITY ========== -->
+  <section id="profile" class="max-w-[1440px] mx-auto px-6 mt-14 pb-16 md:px-[144px] md:mt-24 md:pb-24">
+    <h2 class="font-['Roboto'] font-light text-[24px] tracking-[3px] text-black mb-10 md:text-[30px] md:mb-16">RADIO PERSONALITY</h2>
+    <div class="flex flex-col gap-14 md:flex-row md:gap-[96px]">
+
+      <!-- 芹澤 雅人 -->
+      <div class="flex-1">
+        <img
+          src="img/profile_serizawa.png"
+          alt="芹澤 雅人"
+          class="w-full object-contain bg-[#fefdf8]"
+          style="aspect-ratio: 537 / 448"
+        >
+        <div class="flex items-center justify-between mt-5 md:mt-6">
+          <div>
+            <p class="font-['Roboto','Noto_Sans_JP'] font-light text-[13px] leading-[22px] tracking-[1px] text-black md:text-[14px] md:leading-[24px] md:tracking-[1.4px]">SmartHR 代表取締役CEO</p>
+            <p class="font-['Roboto','Noto_Sans_JP'] font-medium text-[20px] leading-[28px] tracking-[2px] text-black md:text-[24px] md:leading-[30px] md:tracking-[2.4px]">芹澤 雅人</p>
+          </div>
+          <img
+            src="img/profile_x_icon.png"
+            alt="X"
+            class="w-[36px] h-[36px] object-contain md:w-[46px] md:h-[46px]"
+          >
+        </div>
+        <p class="font-['Roboto','Noto_Sans_JP'] font-light text-[13px] leading-[24px] text-black mt-3 md:text-[14px] md:leading-[24px] md:mt-4">
+          2016年、SmartHR入社。2017年にVPoCに就任し、開発教育方針などエンジニアリングチームのOSとしてのマネジメントを担当する。2018年以降、CTOとしてプロダクト開発に携わり全責任をとる。2020年取締役CTOに就任し、2022年12月より現職。
+        </p>
+      </div>
+
+      <!-- 小川 貴之 -->
+      <div class="flex-1">
+        <img
+          src="img/profile_ogawa.png"
+          alt="小川 貴之"
+          class="w-full object-contain bg-[#fefdf8]"
+          style="aspect-ratio: 537 / 448"
+        >
+        <div class="flex items-center justify-between mt-5 md:mt-6">
+          <div>
+            <p class="font-['Roboto','Noto_Sans_JP'] font-light text-[13px] leading-[22px] tracking-[1px] text-black md:text-[14px] md:leading-[24px] md:tracking-[1.4px]">株式会社Right Design 代表</p>
+            <p class="font-['Roboto','Noto_Sans_JP'] font-medium text-[20px] leading-[28px] tracking-[2px] text-black md:text-[24px] md:leading-[30px] md:tracking-[2.4px]">小川 貴之</p>
+          </div>
+          <img
+            src="img/profile_x_icon.png"
+            alt="X"
+            class="w-[36px] h-[36px] object-contain md:w-[46px] md:h-[46px]"
+          >
+        </div>
+        <p class="font-['Roboto','Noto_Sans_JP'] font-light text-[13px] leading-[24px] text-black mt-3 md:text-[14px] md:leading-[24px] md:mt-4">
+          2013年多摩美術大学卒業学芸学部グラフィックデザイン学科卒業。博報堂、博報堂プロダクツ社員を経て独立。2018年に独自スタートアップを手がけるかたわら、FamileMartのプライベートブランドロゴマニュアルの企画パッケージ約100商品をデザイン。
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="bg-black py-10 mt-8 md:py-12">
+    <div class="max-w-[1440px] mx-auto flex flex-col items-center gap-6">
+      <div class="flex items-center gap-8">
+        <img
+          src="img/fotter_x_icon.png"
+          alt="X"
+          class="w-[40px] h-[40px] object-contain md:w-[48px] md:h-[48px]"
+        >
+        <img
+          src="img/fotter_note_icon_trimmed.png"
+          alt="note"
+          class="w-[40px] h-[40px] object-contain md:w-[48px] md:h-[48px]"
+        >
+      </div>
+      <p class="font-['Roboto'] font-light text-[12px] tracking-[0.7px] text-white md:text-[14px]">© 2025 YONDEMITEHA RADIO</p>
+    </div>
+  </footer>
+
+  <!-- ========== NEWS CAROUSEL SCRIPT ========== -->
+  <script>
+    const newsItems = [
+      {
+        date: '2026.2.2',
+        title: 'Podcast ウィークエンド 出展',
+        desc: 'Podcastの祭典に2026年春初出展いたします'
+      }
+    ];
+
+    let currentIndex = 0;
+
+    function changeSlide(dir) {
+      currentIndex = (currentIndex + dir + newsItems.length) % newsItems.length;
+      const item = newsItems[currentIndex];
+      document.getElementById('news-date').textContent = item.date;
+      document.getElementById('news-title').textContent = item.title;
+      document.getElementById('news-desc').textContent = item.desc;
+    }
+  </script>
+
+</body>
+</html>
