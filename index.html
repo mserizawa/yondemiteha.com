@@ -101,18 +101,25 @@
       <h2 class="font-['Roboto'] font-light text-[24px] tracking-[3px] text-black md:text-[30px]">NEWS</h2>
     </div>
     <!-- Full-width background -->
-    <div class="relative w-full h-[220px] flex items-center justify-center overflow-hidden md:h-[300px]">
+    <div class="relative w-full flex items-center justify-center overflow-hidden py-8 md:py-10">
       <img
         src="img/news_bg.png"
         alt=""
         class="absolute inset-0 w-full h-full object-cover"
       >
-      <!-- News card -->
-      <div class="relative z-10 flex items-center justify-center w-full">
-        <button onclick="openNewsModal(0)" class="bg-[#fefdf8] w-[85%] flex items-center justify-between px-6 py-5 text-left cursor-pointer md:w-[720px] md:h-[160px] md:px-[108px] md:py-0">
+      <!-- News cards -->
+      <div class="relative z-10 flex flex-col items-center justify-center w-full gap-3 md:gap-4">
+        <button onclick="openNewsModal(0)" class="bg-[#fefdf8] w-[85%] flex items-center justify-between px-6 py-7 text-left cursor-pointer md:w-[720px] md:h-[130px] md:px-[108px] md:py-0">
           <div class="flex flex-col justify-center">
-            <p id="news-date" class="font-['Roboto'] font-light text-[12px] leading-[26px] text-black md:text-[14px] md:leading-[30px]">2026.3.7</p>
-            <p id="news-title" class="font-['Roboto','Noto_Sans_JP'] font-semibold text-[14px] leading-[26px] text-black md:text-[16px] md:leading-[30px]">3月28日（土） 読んでみてはお花見を開催します！</p>
+            <p class="font-['Roboto'] font-light text-[12px] leading-[26px] text-black md:text-[14px] md:leading-[30px]">2026.4.10</p>
+            <p class="font-['Roboto','Noto_Sans_JP'] font-semibold text-[14px] leading-[26px] text-black md:text-[16px] md:leading-[30px]">5月9日（土） PODCAST WEEKENDに出店します！</p>
+          </div>
+          <span class="text-black text-[20px] leading-none ml-4 md:text-[24px]">›</span>
+        </button>
+        <button onclick="openNewsModal(1)" class="bg-[#fefdf8] w-[85%] flex items-center justify-between px-6 py-7 text-left cursor-pointer md:w-[720px] md:h-[130px] md:px-[108px] md:py-0">
+          <div class="flex flex-col justify-center">
+            <p class="font-['Roboto'] font-light text-[12px] leading-[26px] text-black md:text-[14px] md:leading-[30px]">2026.3.7</p>
+            <p class="font-['Roboto','Noto_Sans_JP'] font-semibold text-[14px] leading-[26px] text-black md:text-[16px] md:leading-[30px]">3月28日（土） 読んでみてはお花見を開催します！</p>
           </div>
           <span class="text-black text-[20px] leading-none ml-4 md:text-[24px]">›</span>
         </button>
@@ -289,6 +296,11 @@
   <!-- ========== NEWS SCRIPT ========== -->
   <script>
     const newsItems = [
+      {
+        date: '2026.4.10',
+        title: '5月9日（土） PODCAST WEEKENDに出店します！',
+        desc: '読んでみてはラジオが、PODCAST WEEKENDに出店します！<br><br>イベント当日は番組グッズの販売や、パーソナリティへの直接トークなど、さまざまな企画を予定しています。ぜひ遊びに来てください！<br><br>チケットの申し込みは以下のPODCAST EXPOの公式サイトよりお願いします！<br><a href="https://podcastexpo.jp/" target="_blank" rel="noopener noreferrer">https://podcastexpo.jp/</a>'
+      },
       {
         date: '2026.3.7',
         title: '3月28日（土） 読んでみてはお花見を開催します！',
